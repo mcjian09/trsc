@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>Turtle Rock Science Club</head>
   <body>
