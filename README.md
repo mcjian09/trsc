@@ -4,8 +4,8 @@
       <p>A Student-Run Science Club for Elementary School Students</p>
     <p></p>
     <p></p>
-    <a href="page1.html">About Turtle Rock Science Club</a>
+    <a href="about-us.html">About Turtle Rock Science Club</a>
     <p></p>
-    <a href="page1.html"> Our Mission </a>
+    <a href="documents.html"> Handouts </a>
   </body>
 </html>
