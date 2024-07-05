@@ -7,13 +7,21 @@ header{
 height: 45px;
 }
 header nav ul{
-display: flex;
-margin-left: 70%;
-list-style: none;
+background-color: #CCCCCC;
+overflow: hidden;
+width: 100%;
+margin: auto;
+position: fixed;
+top: 0;
 }
 
 header nav ul li{
-padding-left: 10%;
+float: none;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
 }
 
 header a{
@@ -33,6 +41,10 @@ align-items: center;
 .container img{
 height: 300px;
 border-radius: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 .container h2{
@@ -53,12 +65,12 @@ font-size: 1rem;
 }
 
 #intro {
-background-color: pink;
+background-color: white;
 background-repeat: round;
 }
 #about{
-background-color: bisque;
+background-color: white;
 }
 #events{
-background-color: blanchedalmond;
+background-color: white;
 }
