@@ -41,6 +41,39 @@ line-height: 40px;
 display: flex;
 justify-content: center;
 }
+#header ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 0 1px;
+	width: 914px;
+}
+#header ul li {
+	border-top: 2px solid #4f5342;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#header ul li a {
+	color: #93958b;
+	display: block;
+	font-size: 14px;
+	height: 42px;
+	letter-spacing: 1px;
+	line-height: 42px;
+	margin: 0;
+	padding: 0 31px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li.selected a {
+	color: #4c4d3d;
+	background: #e5e5e5;
+}
+#header ul li a:hover {
+	color: #c0c3b4;
+}
 
 #intro {
 background-image: url(pinkbg.jpg);
