@@ -7,7 +7,6 @@ header{
 height: 45px;
 }
 header nav ul{
-display: flex;
 background-color: #CCCCCC;
 overflow: hidden;
 width: 100%;
@@ -17,10 +16,9 @@ top: 0;
 }
 
 header nav ul li{
-float: none;
+float: left;
 color: black;
 text-align: center;
-padding: 14px 16px;
 text-decoration: none;
 font-size: 20px;
 }
@@ -28,6 +26,8 @@ font-size: 20px;
 header a{
 text-decoration: none;
 color: brown;
+display: block;
+padding: 8px;
 
 }
 
