@@ -53,12 +53,12 @@ font-size: 1rem;
 }
 
 #intro {
-background-image: url(pinkbg.jpg);
+background-color: pink;
 background-repeat: round;
 }
 #about{
 background-color: bisque;
 }
-#contact{
+#events{
 background-color: blanchedalmond;
 }
