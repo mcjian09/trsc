@@ -7,28 +7,27 @@ header{
 height: 45px;
 }
 header nav ul{
-background-color: #CCCCCC;
+list-style-type: none;
+margin: 0;
+padding: 0;
 overflow: hidden;
-width: 100%;
-margin: auto;
-position: fixed;
-top: 0;
+background-color: #333;
 }
 
 header nav ul li{
 float: left;
-color: black;
-text-align: center;
-text-decoration: none;
-font-size: 20px;
 }
 
 header a{
-text-decoration: none;
-color: brown;
 display: block;
-padding: 8px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
 
+header a:hover {
+  background-color: #111;
 }
 
 section{
