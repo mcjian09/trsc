@@ -83,7 +83,7 @@ font-family: 'Montserrat';
 }
 
 .container h1a{
-position: relative;
+position: static;
 margin-top: 20px;
 text-align: center;
 font-size: 2em;
@@ -131,7 +131,7 @@ font-family: 'Montserrat';
   }
 
 .flex-container {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   display: flex;
   flex-direction: row;
