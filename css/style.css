@@ -78,6 +78,22 @@ font-size: 2em;
 font-family: 'Montserrat';
 }
 
+.button1 {
+  display: block;
+  margin: auto;
+  background-color: #9ad9c8;
+  color: white;
+  border: none;
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+}
+
+.button1:hover {
+      background-color:#c3ebe0;
+      transition: 0.5s;
+  }
+
 footer {
 line-height: 40px;
 display: flex;
