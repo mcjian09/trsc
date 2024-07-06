@@ -78,7 +78,7 @@ font-family: 'Montserrat';
 
 .button1 {
   display: block;
-  margin: auto;
+  margin-top: 100px;
   background-color: #9ad9c8;
   color: white;
   border: none;
@@ -103,6 +103,7 @@ font-size: 1rem;
 }
 
 #intro {
+height: 100vh;
 background-image:url("./images/trsc.jpg");
 background-repeat: no-repeat;
 background-size: cover;
