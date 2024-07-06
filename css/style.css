@@ -160,12 +160,6 @@ font-family: 'Montserrat';
   border: 0;
   text-decoration: none;
   line-height: 17px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 }
 
 .button2:hover {
