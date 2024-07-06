@@ -51,7 +51,6 @@ width: 50%;
 .container h2{
 margin-top: 2%;
 font-size: 3em;
-font-family: 'Unica One', sans-serif;
 }
 .container p, ul{
 margin-top: 2%;
@@ -70,6 +69,7 @@ background-image:url("./images/trsc.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+font-family: 'Unica One', sans-serif;
 }
 #about{
 background-color: white;
