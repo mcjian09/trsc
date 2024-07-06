@@ -83,7 +83,7 @@ font-family: 'Montserrat';
   position: relative;
   left: 50%;
   right: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   background-color: #9ad9c8;
   color: white;
   border: none;
