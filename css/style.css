@@ -31,7 +31,6 @@ header a:hover {
 }
 
 section{
-background-image:url("./images/trsc.jpg");
 height: 100vh;
 border: 1px solid grey;
 display: flex;
