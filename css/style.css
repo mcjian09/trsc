@@ -118,10 +118,11 @@ background-size: 150%;
 background-position: bottom 60% left 40%;
 }
 #about{
-height: 75vh;
+height: auto;
 color: white;
 background-color: #333;
 text-align: center;
+vertical-align: middle;
 
 }
 #events{
