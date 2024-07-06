@@ -107,7 +107,7 @@ font-family: 'Montserrat';
 
 .one {
   height: 75vh;
-  width: 100%
+  width: 20%
   margin-right: 20%
   display: inline-block;
   verticle-align: middle;
@@ -116,7 +116,7 @@ font-family: 'Montserrat';
 }
 .two {
   height: 75vh;
-  width: 100%
+  width: 20%
   display: inline-block;
   verticle-align: middle; 
   padding: 20px;
@@ -124,7 +124,7 @@ font-family: 'Montserrat';
 }
 .three {
   height: 75vh;
-  width: 100%
+  width: 20%
   margin-left: 20%
   display: inline-block;
   verticle-align: middle;
