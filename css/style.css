@@ -118,6 +118,7 @@ background-attachment: scroll;
 background-size: 150%;
 background-position: bottom 60% left 40%;
 }
+
 #about{
 height: auto;
 color: white;
@@ -125,8 +126,18 @@ background-color: #333;
 text-align: center;
 vertical-align: middle;
 padding: 10px;
-
 }
+
+#mission{
+margin-top: 0;
+height: auto;
+color: white;
+background-color: #333;
+text-align: center;
+vertical-align: middle;
+padding: 10px;
+}
+
 #events{
 background-color: white;
 height: 100vh;
