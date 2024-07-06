@@ -83,7 +83,7 @@ font-family: 'Montserrat';
 }
 
 .container h1a{
-position: absolute;
+position: static;
 margin-top: 20px;
 text-align: center;
 align-items: center;
