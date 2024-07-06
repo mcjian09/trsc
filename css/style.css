@@ -35,8 +35,6 @@ header a:hover {
 }
 
 section{
-height: 100vh;
-border: 1px solid grey;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -113,8 +111,10 @@ background-size: 150%;
 background-position: bottom 60% left 40%;
 }
 #about{
+height: 75vh;
 color: white;
 background-color: #333;
+text-align: center;
 
 }
 #events{
