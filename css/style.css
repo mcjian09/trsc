@@ -130,7 +130,7 @@ color: white;
 background-color: #111;
 text-align: center;
 vertical-align: middle;
-padding: 10px;
+padding: 30px 10px 10px 0px;
 }
 
 #mission{
@@ -141,7 +141,7 @@ color: white;
 background-color: #333;
 text-align: center;
 vertical-align: middle;
-padding: 10px;
+padding: 0px 10px 10px 30px;
 }
 
 #events{
