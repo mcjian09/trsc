@@ -123,12 +123,19 @@ font-family: 'Montserrat';
   }
 
 .flex-container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
   background-color: #9ad9c8;
+  @media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 }
 
 .button2 {
