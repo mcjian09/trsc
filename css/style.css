@@ -70,7 +70,7 @@ width: 300px;
 }
 .container p, ul{
 margin-top: 2%;
-font-size: 1.5rem;
+font-size: 1rem;
 }
 
 .container h1{
@@ -132,7 +132,8 @@ padding: 10px;
 }
 
 #mission{
-margin-top: 0;
+margin-top: 20px;
+margin-bottom: 50px;
 height: auto;
 color: white;
 background-color: #111;
