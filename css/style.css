@@ -128,6 +128,7 @@ font-family: 'Montserrat';
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  background-color: #9ad9c8;
 }
 
 .button2 {
