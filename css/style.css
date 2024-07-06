@@ -31,6 +31,7 @@ header a:hover {
 }
 
 section{
+background-image:url("./images/trsc.jpg");
 height: 100vh;
 border: 1px solid grey;
 display: flex;
@@ -65,7 +66,7 @@ font-size: 1rem;
 }
 
 #intro {
-background-image: url=("./images/trsc.jpg");
+background-image:url("./images/trsc.jpg");
 }
 #about{
 background-color: white;
