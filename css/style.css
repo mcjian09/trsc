@@ -36,7 +36,7 @@ border: 1px solid grey;
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: 'Unica One', sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container img{
@@ -51,7 +51,7 @@ width: 50%;
 .container h2{
 margin-top: 2%;
 font-size: 3em;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Unica One', sans-serif;
 }
 .container p, ul{
 margin-top: 2%;
