@@ -44,7 +44,7 @@ font-family: 'Montserrat';
 p {
   margin-right: 150px;
   margin-left: 150px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Montserrat';
 }
 
@@ -120,4 +120,5 @@ text-align: center;
 }
 #events{
 background-color: white;
+height: 100vh;
 }
