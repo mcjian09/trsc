@@ -85,13 +85,16 @@ font-family: 'Montserrat';
   color: white;
   border: none;
   padding:15px;
+  font-size: 1.5rem;
   min-height:30px; 
   min-width: 120px;
+  font-family: 'Unica One';
 }
 
 .button1:hover {
       background-color:#c3ebe0;
-      transition: 0.5s;
+      color: black;
+      transition: 0.3s;
   }
 
 footer {
