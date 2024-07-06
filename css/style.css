@@ -41,6 +41,11 @@ align-items: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+p {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
 .container img{
 height: 300px;
 border-radius: 50%;
