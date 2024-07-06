@@ -106,14 +106,17 @@ font-family: 'Montserrat';
   }
 
 .one {
+  display: inline-block;
   padding: 20px;
   background: #f00;
 }
 .two {
+  display: inline-block;
   padding: 20px;
   background: #00f;
 }
 .three {
+  display: inline-block;
   padding: 20px;
   background: #333;
 }
