@@ -133,7 +133,7 @@ font-family: 'Montserrat';
 
 .flex-container {
   width: 150vh;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
