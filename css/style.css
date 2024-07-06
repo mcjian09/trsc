@@ -102,6 +102,13 @@ font-family: 'Montserrat';
       transition: 0.3s;
   }
 
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em
+  background-color: #9ad9c8;
+}
+
 footer {
 line-height: 40px;
 display: flex;
