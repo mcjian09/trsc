@@ -65,6 +65,8 @@ width: 300px;
   text-align: center;
   color: white;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='red' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
 }
 .container p, ul{
 margin-top: 2%;
@@ -102,12 +104,6 @@ font-family: 'Montserrat';
       transition: 0.3s;
   }
 
-mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em
-  background-color: #9ad9c8;
-}
 
 footer {
 line-height: 40px;
