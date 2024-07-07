@@ -46,8 +46,8 @@ font-family: 'Montserrat';
 }
 
 p {
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 10px;
+  margin-left:10px;
   font-size: 1rem;
   font-family: 'Montserrat';
   text-decoration: none;
@@ -75,6 +75,14 @@ width: 300px;
 .container p, ul{
 margin-top: 2%;
 font-size: 1rem;
+}
+
+.container p{
+margin-right: 150px;
+margin-left: 150px;
+font-size: 1rem;
+font-family: 'Montserrat';
+text-decoration: none;
 }
 
 .w3-container w3-red p{
