@@ -64,7 +64,7 @@ width: 300px;
 }
 
 img {
-  "object-fit: cover"
+object-fit: cover;
 }
 
 .stroke {
