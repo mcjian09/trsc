@@ -74,6 +74,10 @@ margin-top: 2%;
 font-size: 1rem;
 }
 
+.w3-container w3-red p{
+  margin: auto;
+}
+
 .container H1{
 position: relative;
 margin-top: 80px;
