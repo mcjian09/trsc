@@ -93,7 +93,7 @@ text-decoration: none;
   margin: auto;
 }
 
-.w3-card-4 w3-white {
+.w3-row w3-padding w3-white {
   display: flex;
   flex-direction: row;
 }
