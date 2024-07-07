@@ -94,6 +94,11 @@ text-decoration: none;
   margin: auto;
 }
 
+.w3-card {
+  display: inline-block;
+  min-width: 200px;
+}
+
 .container H1{
 position: relative;
 margin-top: 80px;
