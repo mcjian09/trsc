@@ -50,6 +50,8 @@ p {
   font-size: 1rem;
   font-family: 'Montserrat';
   text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .container img{
