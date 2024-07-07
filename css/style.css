@@ -94,7 +94,7 @@ text-decoration: none;
   margin: auto;
 }
 
-.w3-card {
+.w3-card-4 w3-white {
   display: inline-block;
   min-width: 200px;
 }
