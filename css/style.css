@@ -63,6 +63,10 @@ margin-right: auto;
 width: 300px;
 }
 
+img src{
+  "object-fit: cover"
+}
+
 .stroke {
   margin-top: -10%;
   font-size: 5em;
