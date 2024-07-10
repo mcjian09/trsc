@@ -194,7 +194,7 @@ img {
     flex-grow: 1;
 }
 
-.button-container w3-container w3-white {
+.button-container{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
