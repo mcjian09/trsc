@@ -188,18 +188,23 @@ img {
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;  /* Ensure the card stretches to contain everything properly, space between elements */
+    height: 100%;  /* Ensure the card takes full available height */
 }
 
 .content {
-    flex-grow: 1;
+    flex-grow: 1;  /* Ensure it takes remaining space */
 }
 
-.button-container{
-    margin-bottom: 20px;
+.button-container {
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Center the button horizontally */
+    margin-bottom: 20px;
 }
 
+.w3-button {
+    margin-top: auto;  /* Push the button towards the bottom inside the container */
+}
 footer {
     line-height: 40px;
     display: flex;
