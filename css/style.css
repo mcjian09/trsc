@@ -188,23 +188,37 @@ img {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  /* Ensure the card stretches to contain everything properly, space between elements */
-    height: 100%;  /* Ensure the card takes full available height */
+    justify-content: space-between; 
+    height: 100%; 
+    padding-left: 10px; 
+    box-sizing: border-box;
 }
 
 .content {
-    flex-grow: 1;  /* Ensure it takes remaining space */
+    flex-grow: 1; 
 }
 
 .button-container {
     display: flex;
-    justify-content: center;  /* Center the button horizontally */
-    margin-bottom: 20px;
+    justify-content: flex-start;
+    margin-bottom: 20px; 
+    padding-left: inherit; 
 }
 
 .w3-button {
-    margin-top: auto;  /* Push the button towards the bottom inside the container */
+    margin-top: auto; 
 }
+
+.w3-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    width: 100%;
+    align-items: stretch;
+}
+
 footer {
     line-height: 40px;
     display: flex;
