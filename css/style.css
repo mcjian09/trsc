@@ -185,6 +185,21 @@ img {
     transition: 0.3s;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.button-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     line-height: 40px;
     display: flex;
