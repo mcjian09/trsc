@@ -270,12 +270,32 @@ footer {
     padding: 20px;
 }
 
-#about2 p {
+#about2 {
+    p {
     margin: 10px;
     font-size: 1rem;
     font-family: 'Montserrat';
     text-decoration: none;
+    }
+
+    .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
 }
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+    
+}
+
+
 
 #board {
     margin: auto;
