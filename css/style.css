@@ -92,6 +92,7 @@ header nav ul {
     top: 0;
     width: 100%;
     z-index: 2;
+    height: 10vh;
 }
 header nav ul li {
     float: right;
