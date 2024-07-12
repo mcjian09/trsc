@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Contact Us</h1>
+
+    <p>We'd love to hear from you! Whether you have questions, feedback, or want to get involved with the Turtle Rock Science Club, please feel free to reach out to us using the information below.</p>
+
+    <h2>General Inquiries</h2>
+    <p>For general questions about the Turtle Rock Science Club, please contact our advisor:</p>
+    <p><strong>Dr. Zheng Sun</strong><br>
+    Email: <a href="mailto:zhengs@uci.edu">zhengs@uci.edu</a></p>
+
+    <h2>Joining the Club</h2>
+    <p>If you are a student interested in joining the club, please fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLScAti8-9-BYBdIdQ9DtjOqRsk3Gc8fwnVEikq54ZQPLryRQkg/viewform">2024-2025 Interest Form</a>.</p>
+
+    <h2>Becoming a Coach</h2>
+    <p>If you are interested in becoming a coach, please contact:</p>
+    <p><strong>Dr. Zheng Sun</strong><br>
+    Email: <a href="mailto:zhengs@uci.edu">zhengs@uci.edu</a> or a member of our board.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <p>Check out our <a href="faq.html">FAQ page</a> for answers to common questions.</p>
+
+    <h2>Stay Connected</h2>
+    <p>Follow us on social media to stay updated with our latest news and events:</p>
+    <p>
+      <!--any socials?-->
+    </p>
+
+    <h2>Newsletter Signup</h2>
+    <p>Stay informed about our events and activities by signing up for our newsletter:</p>
+    <!--insert html code-->
+
+    <hr>
+  </body>
+</html>
