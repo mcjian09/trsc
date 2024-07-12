@@ -91,25 +91,28 @@ header nav ul {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
     height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-header nav ul li {
-    float: right;
-}
+
 header a {
-    display: block;
     color: white;
     font-size: 1rem;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Unica One';
-    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
+
 header a:hover {
     background-color: #111;
 }
+
 section {
     display: flex;
     justify-content: center;
