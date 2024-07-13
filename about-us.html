@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turtle Rock Science Club Website</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header>
@@ -19,40 +20,29 @@
       </nav>
     </header>
     <main>
-      <section id="about">
-        <div class="container">
-          <h1>ABOUT TURTLE ROCK SCIENCE CLUB</h1>
-          <p>Founded in Summer 2022 at Turtle Rock Community Park, Turtle Rock Science Club(TRSC) was started as an extracurricular activity for science enthusiasts from the local elementary school. Initially organized by parent volunteers, TRSC aimed to foster a love for science through hands-on experiments and activities. Over the last two years, the club has significantly expanded, and is now led by former Turtle Rock students, with old TRSC members coming back to help out and give back to the community. In the future, TRSC plans to expand our audience to more than just Turtle Rock students, along with hosting more workshops and meetings.</p>
+      <div class="container">
+        <h1>OUR TEAM</h1>
+        <div class="card" onclick="this.classList.toggle('flipped');">
+            <div class="front">
+                <img src="profile-image.jpg" alt="Zheng Sun">
+                <h2>Zheng Sun</h2>
+                <p>board advisor</p>
+            </div>
+            <div class="back">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet.</p>
+            </div>
         </div>
-        
-      </section>
-      <section id="goals">
-        <div class="container">
-          <h1>OUR GOALS</h1>
-          <ul>
-            <li>Encourage all students to pursue STEM related subjects</li>
-            <li>Enhance Scientific Literacy</li>
-            <li>Encourage Teamwork and Collaboration</li>
-          </ul> 
+
+        <!-- 8 more cards -->
+        <div class="card-grid">
+            <div class="row">
+                <!-- Repeat your card here 4 times for the first row -->
+            </div>
+            <div class="row">
+                <!-- Repeat your card here 4 times for the second row -->
+            </div>
         </div>
-      </section>
-      <hr>
-      <section id="board">
-        <div class="container">
-          <h2>meet the board</h2>
-          <table>
-            <tr>
-              <th>P1</th>
-              <th>P2</th>
-              <th>P3</th>
-            </tr>
-            <tr>
-              <td>image1</td>
-              <td>image2</td>
-              <td>image3</td>
-            </tr>
-          </table>
-        </div>
+    </div>
     </main>
     <footer>
       <p>© 2024 Turtle Rock Science Club</p>
