@@ -42,18 +42,21 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: black;
+    color: white;
 }
 
 .container {
     text-align: center;
-    color: white;
+    margin-top: 50px; /* Moves the container down */
+    z-index: -1;
 }
 
 .card {
     width: 200px;
     height: 300px;
-    margin: 0 auto;
+    margin: 0 auto 30px; /* Increases distance between the topmost card and the row below it */
     perspective: 1000px;
+    display: inline-block;
 }
 
 .card .front, .card .back {
@@ -76,11 +79,11 @@ body, html {
     transform: rotateY(180deg);
 }
 
-.card.flipped .front {
+.card:hover .front {
     transform: rotateY(180deg);
 }
 
-.card.flipped .back {
+.card:not(:hover) .back {
     transform: rotateY(360deg);
 }
 
@@ -96,8 +99,9 @@ body, html {
 .card-grid .row {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px; /* Increases spacing between rows */
 }
 
 .card-grid .row .card {
-    margin: 10px;
+    margin: 10px 20px; /* Slightly increases the spacing between the cards in the grid */
 }
