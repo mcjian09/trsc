@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+
+.card .front, .card .back {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    backface-visibility: hidden;
+    border: solid 1px #ccc;
+    transition: transform 0.6s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card .back {
+    transform: rotateY(180deg);
+}
+
+.card.flipped .front {
+    transform: rotateY(180deg);
+}
+
+.card.flipped .back {
+    transform: rotateY(360deg);
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+}
+
+.card h2, .card p {
+    margin: 10px;
+}
+
+.card-grid .row {
+    display: flex;
+    justify-content: center;
+}
+
+.card-grid .row .card {
+    margin: 10px;
+}
