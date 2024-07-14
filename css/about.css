@@ -44,26 +44,30 @@ body, html {
     background-color: black;
     font-family: Arial, sans-serif;
     color: white;
+    text-align: center; /* Ensures content is centered */
 }
 
 .container {
     text-align: center;
-    margin-top: 150px; 
+    margin-top: 150px; /* Adjust as needed */
 }
 
 .cards-grid-container {
-    overflow-x: auto; 
-    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Center the `.cards-grid` container */
+    align-items: center;
+    width: 100%;
 }
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(4, 200px); 
-    grid-auto-rows: 300px; 
-    gap: 20px; 
-    padding: 20px 0; 
+    grid-template-columns: repeat(4, 200px); /* Keeps the grid to 4 columns */
+    grid-auto-rows: 300px; /* Height for rows */
+    gap: 20px; /* Consistent spacing between cards */
+    justify-content: center; /* Centers grid items in the grid container */
+    padding: 20px 0; /* Adjust as needed */
+    margin: 0 auto; /* Center the grid within its container */
 }
 
 .card {
