@@ -111,6 +111,7 @@ body, html {
 
 .card:hover .card-inner {
     transform: rotateY(180deg);
+    background-color: transparent;
 }
 
 .card img {
