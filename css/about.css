@@ -41,21 +41,23 @@ header a:hover {
 body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
     background-color: black;
+    font-family: Arial, sans-serif; /* Use a standard font for better readability */
     color: white;
 }
 
 .container {
     text-align: center;
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 100px; /* Increased to move the "OUR TEAM" header further down */
 }
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
-    gap: 20px; /* Adjusts the space between cards */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensures the cards are responsive */
+    gap: 20px; /* Adjusts both the space between cards and between rows uniformly */
     justify-content: center; /* Center the grid */
-    padding: 20px;
+    padding: 20px 0; /* Increased bottom padding for spacing between header and topmost card */
 }
 
 .card {
@@ -63,6 +65,7 @@ body, html {
     height: 300px;
     margin: 0 auto; /* Center card */
     perspective: 1000px;
+    background-color: white; /* Ensure card background is white for readability */
 }
 
 .card-inner {
@@ -82,14 +85,13 @@ body, html {
 }
 
 .front {
-    background-color: white;
-    color: black;
+    color: black; /* Ensure text color is black for readability */
 }
 
 .back {
-    background-color: white;
     color: black;
     transform: rotateY(180deg);
+    background-color: #f8f8f8; /* Slightly different background for the back for distinction */
 }
 
 .card:hover .card-inner {
