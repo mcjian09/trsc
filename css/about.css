@@ -49,7 +49,8 @@ body, html {
 
 .container {
     text-align: center;
-    margin-top: 150px; /* Adjust as needed */
+    margin-top: 150px; 
+    justify-content: center;
 }
 
 .cards-grid-container {
