@@ -104,7 +104,9 @@ body, html {
 .back {
     color: black;
     transform: rotateY(180deg);
-    background-color: #f8f8f8; 
+    background-color: #f8f8f8;
+    align-items: center; 
+    justify-content: center;
 }
 
 .card:hover .card-inner {
