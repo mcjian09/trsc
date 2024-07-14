@@ -47,17 +47,24 @@ body, html {
 
 .container {
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+    gap: 20px; /* Adjusts the space between cards */
+    justify-content: center; /* Center the grid */
+    padding: 20px;
 }
 
 .card {
     width: 200px;
     height: 300px;
-    margin: 0 auto 30px auto; 
-    perspective: 1000px; 
+    margin: 0 auto; /* Center card */
+    perspective: 1000px;
 }
 
-/* This is the container that will actually flip */
 .card-inner {
     position: relative;
     width: 100%;
@@ -66,7 +73,6 @@ body, html {
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
-
 
 .front, .back {
     position: absolute;
@@ -98,10 +104,4 @@ body, html {
 
 .card h2, .card p {
     margin: 10px;
-}
-
-.card-grid .row {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
 }
