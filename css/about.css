@@ -39,33 +39,38 @@ header a:hover {
 }
 
 body, html {
-    height: 100%;
     margin: 0;
     padding: 0;
     background-color: black;
-    font-family: Arial, sans-serif; /* Use a standard font for better readability */
+    font-family: Arial, sans-serif;
     color: white;
 }
 
 .container {
     text-align: center;
-    margin-top: 100px; /* Increased to move the "OUR TEAM" header further down */
+    margin-top: 150px; 
+}
+
+.cards-grid-container {
+    overflow-x: auto; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensures the cards are responsive */
-    gap: 20px; /* Adjusts both the space between cards and between rows uniformly */
-    justify-content: center; /* Center the grid */
-    padding: 20px 0; /* Increased bottom padding for spacing between header and topmost card */
+    grid-template-columns: repeat(4, 200px); 
+    grid-auto-rows: 300px; 
+    gap: 20px; 
+    padding: 20px 0; 
 }
 
 .card {
     width: 200px;
     height: 300px;
-    margin: 0 auto; /* Center card */
     perspective: 1000px;
-    background-color: white; /* Ensure card background is white for readability */
+    background-color: white; 
 }
 
 .card-inner {
@@ -85,13 +90,13 @@ body, html {
 }
 
 .front {
-    color: black; /* Ensure text color is black for readability */
+    color: black; 
 }
 
 .back {
     color: black;
     transform: rotateY(180deg);
-    background-color: #f8f8f8; /* Slightly different background for the back for distinction */
+    background-color: #f8f8f8; 
 }
 
 .card:hover .card-inner {
