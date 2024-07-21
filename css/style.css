@@ -84,7 +84,7 @@ img {
     object-fit: cover;
 }
 .container p, .container ul {
-    margin-top: 2%;
+    margin-top: 0%;
     font-size: 1rem;
 }
 
