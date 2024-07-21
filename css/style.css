@@ -198,7 +198,7 @@ img {
 }
 
 .card img {
-    height: 200px;  /* Ensure all images have the same height */
+    height: 100px;  /* Ensure all images have the same height */
 }
 
 .w3-container h3, .w3-container h5, .content p {
