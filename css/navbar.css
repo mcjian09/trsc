@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*
+Navbar stuff
+*/
+ul {
+overflow: hidden;
+list-style-type: none;
+background-color: #222222;
+position:fixed;
+top: 0;
+width:100%
+}
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 15px 15px;
+}
+li a:hover:not(.active) {
+background-color: #000000;
+}
+
+.active {
+background-color: #808080;
+}
