@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,10 +11,16 @@ Navbar stuff
 ul {
   overflow: hidden;
   list-style-type: none;
-  background-color: #222222;
+  background-color: #333;
   position:fixed;
   top: 0;
   width:100%
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 li {
   float: right;
@@ -22,17 +31,25 @@ li a {
   color: white;
   text-align: center;
   padding: 15px 15px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Unica One';
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 li a:hover:not(.active) {
   background-color: #000000;
 }
 
 .active {
-  background-color: #808080;
+  background-color: #111;
 }
 /*
 Main page CSS
 */
+
+
 #intro {
   margin-top: 48px;
     height: 400px;
@@ -45,6 +62,7 @@ Main page CSS
 }
 .font {
   font-size: 35px;
+font-family: 'Montserrat', sans-serif;
   background-color: #afeeee;
   padding: 10px;
   color: #404040;
